@@ -70,7 +70,7 @@ body {
 }
 
 .intro {
-  margin: 0 0 120px;
+  margin: 0 0 80px;
 }
 
 .subheading {
@@ -95,12 +95,18 @@ body {
   font-weight: 500;
 }
 
+.portfolio h2 {
+margin-top: 50px;}
+
 .intro p {
   margin: 0 0 32px;
 }
 
+.skills h3 {
+margin-left: 20px;}
+
 .skills-list {
-  margin: 0;
+  margin: 20px;
   padding: 0;
 }
 
@@ -160,6 +166,7 @@ body {
 
 .button {
   padding: 6px 20px;
+  margin-bottom: 20px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
@@ -191,4 +198,10 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+
+.intro img {
+	border-radius: 50%;
+	margin-left: 30%;
 }
